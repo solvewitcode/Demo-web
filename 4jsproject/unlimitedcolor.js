@@ -28,4 +28,5 @@ document.querySelector('#stop').addEventListener('click',()=>
 {
   clearInterval(interval)
   document.body.style.backgroundColor = `#212121`
+  interval= null;
 })
